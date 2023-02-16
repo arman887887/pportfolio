@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/*header*/
+.container{
+    margin: 0 auto;
+    padding: 0 30px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 30px !important;
+}
+.left{
+    display: flex;
+}
+.left ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.left ul a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+.left img{
+    margin-right: 15px;
+}
+.right{
+    margin-left: 0.5rem;
+}
+.right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.right ul a{
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    padding: 0.2rem 1.9rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.a:hover{
+    color: hsl(260, 8%, 14%);
+}
+.left ul a:hover{
+    color: hsl(260, 8%, 14%);
+}
+.right ul .active{
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border-radius: 1rem;
+}
+.right ul .active:hover{
+    background-color: hsl(180, 50%, 63%);
+}
+.ham{
+    display: none;
+}
+.sm{
+    display: none;
+}
+
+/*hero*/
+#hero{
+    margin-top: 102px;
+    padding-bottom: 100px;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.box .item1{
+    width: 50%;
+}
+.box .item1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: hsl(257, 27%, 26%);
+    line-height: 1.2;
+}
+.box .item1 p{
+    font-size: 20px;
+    color: hsl(257, 7%, 63%);
+}
+.box .item1 .btn{
+    font-size: 17px;
+    margin-top: 22px;
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    padding: 12px 32px;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box .item1 .btn:hover{
+    background-color: hsl(180, 50%, 63%);
+}
+.box .item2{
+    width: 50%;
+}.box .item2 img{
+    width: 100%;
+}
+
+/*form*/
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+form input::placeholder{
+    color: red;
+}
+.msg{
+    display: block;
+    color: rgb(179, 8, 8);
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+form .btn{
+    font-size: 17px;
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    width: 20%;
+}
+form .btn:hover{
+    background-color:  hsl(180, 34%, 51%);
+}
+.bg{
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background: url(images/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: hsl(257, 27%, 26%);
+}
+#load{
+    text-align: center;
+}
+/*services*/
+.services{
+    padding: 100px 0;
+    padding-bottom: 200px;
+    background-color: hsl(0, 2%, 87%);
+}
+.services .text{
+    text-align: center;
+}
+.services .text h1{
+    color: hsl(260, 8%, 14%);
+    font-size: 40px;
+}
+.services .text p{
+    color: hsl(257, 7%, 63%);
+    padding-top: 10px;
+}
+.box2{
+    margin-top: 80px;
+    display: flex;
+}
+.box2 .item{
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 15px;
+    position: relative;
+    width: 33%;
+}
+.second{
+    position: absolute;
+    transform: translateY(20%);
+}
+.third{
+    position: absolute;
+    transform: translateY(40%);
+}
+.box2 .item img{
+    border-radius: 50%;
+    background-color: hsl(257, 27%, 26%);
+    padding: 18px;
+    position: absolute;
+    transform: translateY(-80%);
+}
+.box2 .item h2{
+    color: hsl(260, 8%, 14%);
+    padding-top: 50px;
+    font-size: 22px;
+}
+.box2 .item p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: hsl(257, 7%, 63%);
+}
+
+/*boost*/
+.boost{
+    text-align: center;
+    background: url(images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(257, 27%, 26%);
+    color: white;
+    padding: 50px 0;
+}
+.boost .btn{
+    font-size: 16px;
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.boost .btn:hover{
+    background-color:  hsl(180, 75%, 76%);
+}
+
+/*footer section*/
+.footer{
+    background-color: hsl(260, 8%, 14%);
+    color: white;
+}
+.footer-box{
+    display: flex;
+    padding: 70px 0;
+}
+.first-footer{
+    width: 30%;
+}
+.second-footer{
+    width: 50%;
+}
+.second-footer .all-ul{
+    display: flex;
+}
+.all-ul ul{
+    list-style: none;
+}
+.ul{
+    padding: 0 30px;
+}
+.ul h4{
+    padding-bottom: 15px;
+}
+.all-ul ul li{
+    padding: 10px 0;
+}
+.all-ul ul a{
+    text-decoration: none;
+    color: rgb(231, 204, 204);
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.all-ul ul a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+.third-footer{
+    width: 20%;
+}
+.third-footer i{
+    padding: 0 8px;
+    font-size: 25px;
+    color: white;
+}
+.third-footer i:hover{
+    color: cyan;
+}
+
+/*shortner-link section*/
+.shorten-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 15px 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px 4px grey;
+}
+.shorten-box .box-1{
+    width: 60%;
+}
+.shorten-box .box-2{
+    text-align: right;
+    width: 40%;
+}
+.shorten-box .box-1 p{
+font-size: 15px;
+overflow-x: auto;
+}
+.shorten-box .box-2 span{
+font-size: 16px;
+color: rgb(1, 179, 179);
+padding-right: 5px;
+}
+.shorten-box .box-2 .btn{
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.shorten-box .box-2 .btn:hover{
+    background-color:  hsl(180, 25%, 53%);
+}
+.shorten-box .box-2 .delete{
+    background-color:  hsl(0, 84%, 35%);
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+}

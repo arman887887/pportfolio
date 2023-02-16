@@ -1,0 +1,102 @@
+@media screen and (max-width: 1440px){
+    
+}
+@media screen and (max-width: 1200px){
+    .inner-container{
+        padding: 38px 75px;
+    }
+}
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 37px;
+        padding-top: 60px;
+    } 
+    h2{
+        font-size: 37px;
+    } 
+    h3{
+        font-size: 37px;
+    }
+    p{
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    .mail input{
+        padding: 14px 10px 14px 25px;
+    }
+    .btn{
+        padding: 15px 32px 7px 31px;
+
+    }
+}
+@media screen and (max-width: 768px){
+.container .right{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.container .left{
+    width: 100%;
+}
+.inner-container{
+    padding: 0;
+}
+.text{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 30px;
+}
+h1{
+    font-size: 45px;
+    padding-top: 60px;
+} 
+h2{
+    font-size: 45px;
+} 
+h3{
+    font-size: 45px;
+}
+p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.btn{
+    right: 5%;
+}
+.mail{
+    margin-bottom: 40px;
+}
+.logo img{
+    padding: 40px;
+}
+.mobile img{
+    width: 100%;
+}
+}
+@media screen and (max-width: 576px){
+    h1{
+        font-size: 37px;
+        padding-top: 60px;
+    } 
+    h2{
+        font-size: 37px;
+    } 
+    h3{
+        font-size: 37px;
+    }
+    p{
+        font-size: 13px;
+        padding-top: 20px;
+    }
+    .mail{
+        margin-bottom: 40px;
+    }
+    .btn{
+        right: 3%;
+    }
+    .logo img{
+        padding: 30px;
+    }
+}

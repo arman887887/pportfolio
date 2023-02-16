@@ -1,0 +1,138 @@
+@media screen and (max-width: 1440px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1100px;
+    }
+}
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 850px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 650px;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    .box2 .item2 h1{
+        font-size: 25px;
+    }
+    .box2 .item2 p{
+        font-size: 11px;
+    }
+    .box2 .item1{
+        width: 100%;
+    }
+    .box2 .item2{
+        width: 100%;
+    }
+    .box3{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .box3 .item1, .item2, .item3{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .quoteimg {
+        position: absolute;
+        top: -29%;
+        left: 0%;
+    }
+    .footerbox{
+        flex-direction: column;
+    }
+    .footerbox .item11{
+        display: flex;
+        width: 100%;
+        padding-top: 40px
+    }
+    .footerbox .item22{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .footerbox .item33, .item44, .item55{
+        width: 100%;
+        padding-top: 40px
+    }
+    #main{
+        padding: 30px 40px;
+    }
+    .mail{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mail input{
+        width: 100%;
+    }
+    .mail .btn{
+        width: 100%;
+        padding:15px 0;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 500px;
+    }
+    .introbox img{
+        width: 100%;
+    }
+    .introbox h1{
+        font-size: 1.4rem;
+        padding-top: 15px;
+    }
+    .row{
+        padding: 30px 0;
+    }
+    .row .box1 img{
+        width: 60%;
+    }
+    .row .box2 ul li{
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    #intro::before{
+        content: "";
+        background: url(images/bg-curvy-mobile.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .mainbox .box{
+        flex-direction: column;
+    }
+    .mainbox .box .item{
+        width: 100%;
+    }
+    .box2 .item1{
+        width: 100%;
+    }
+    .box2 .item2{
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    .quoteimg {
+        position: absolute;
+        top: -23%;
+        left: 3%;
+    }
+    #main{
+        padding: 25px 30px;
+        
+    }
+  
+    
+}

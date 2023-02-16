@@ -1,0 +1,43 @@
+@media screen and (max-width: 1150px){
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 1050px){
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 1070px){
+    html{
+        font-size: 45%;
+    }
+}
+@media screen and (max-width: 870px){
+    html{
+        font-size: 49%;
+    }
+    .container{
+        width: 80%;
+        margin-top: 6rem;
+    }
+    main{
+        align-items: flex-start;
+       
+    }
+    .lower{
+        flex-direction: column;
+    }
+    .lower .box1{
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+    .lower .box1 button{
+        padding: 1rem 5rem;
+
+    } 
+    .lower .box2{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+}

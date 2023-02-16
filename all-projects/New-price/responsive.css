@@ -1,0 +1,31 @@
+@media screen and (max-width: 1440px){
+    .bigcontainer{
+       max-width: 1300px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .bigcontainer{
+          max-width: 1100px;
+    }
+}
+@media screen and (max-width: 992px){
+    .bigcontainer{
+        max-width: 900px;
+    }
+    .alag{
+        scale: 1;
+    }
+    .item h1{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .bigcontainer{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 576px){
+    .bigcontainer{
+        max-width: 520px;
+    }
+}

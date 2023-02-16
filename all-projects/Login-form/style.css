@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Open+Sans&family=Poppins:wght@100;200;300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+.desk{
+    background: url(bg-intro-desktop.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 100%, 74%);
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+.container .left{
+    width: 50%;
+    padding-right: 61px;
+}
+.container .right{
+    width: 50%;
+}
+.right{
+    padding: 10px;
+}
+.box h1{
+    background-color: hsl(248, 32%, 49%);
+    padding: 12px 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.form-container{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.form-container input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+.form-container button{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.form-container button:hover{
+    background-color: hsl(154, 49%, 33%);
+}
+.form-container p{
+    font-size: 12px;
+    padding: 15px 0 20px 0;
+    text-align: center;
+}
+.left h1{
+    font-size: 50px;
+    color: white;
+}
+.left p{
+    color: white;
+    padding-top: 10px;
+}
+.form-control{
+    text-align: end;
+    position: relative;
+}
+.form-control img{
+    position: absolute;
+    top: 0;
+    right: 4%;
+    transform: translateY(40%);
+    opacity: 0;
+}
+.form-control small{
+    color: hsl(0, 100%, 74%);
+    opacity: -1;
+}
