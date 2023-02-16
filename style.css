@@ -275,9 +275,7 @@ header a{
 }
 
 .box4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
 .box4 h1 {
