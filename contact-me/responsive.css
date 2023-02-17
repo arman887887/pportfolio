@@ -84,8 +84,21 @@
 @media screen and (max-width: 576px){
     .container-box{
         max-width: 540px;
+        padding: 40px 10px;
     }
     .form-container {
         padding: 10px 0;
+    }
+    .info .inner-one .icon {
+        padding: 9px 19px;
+    }
+    .box{ 
+        padding: 13px 30px;
+    } 
+    .nav-ul{
+        top: 87px;
+    } 
+    header h1 {
+        font-size: 39px;
     }
 }
