@@ -188,12 +188,15 @@
         margin-bottom: 50px;
     }
     .intro{
-        margin-top: 92px;
+        margin-top: 75px;
     }
     .box{
-        padding: 20px 30px;
+        padding: 13px 30px;
     }
     .nav-ul{
-        top: 92px;
+        top: 75px;
+    }
+    header h1 {
+    font-size: 39px;
     }
 }
